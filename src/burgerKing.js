@@ -1,4 +1,6 @@
-var DEBUG = true;
+var system = require('system');
+var env = system.env;
+var DEBUG = env.DEBUG;
 
 getRandomQuestionsFilling = function(casper) {
   var questionsNames = casper.getFormValues('form#surveyForm').PostedFNS.split('|');
