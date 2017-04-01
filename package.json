@@ -1,0 +1,22 @@
+{
+  "name": "fatomjs",
+  "version": "1.0.0",
+  "description": "PhantomJS/CasperJS to eat more and more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keabard/FATomJS.git"
+  },
+  "author": "Keabard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keabard/FATomJS/issues"
+  },
+  "homepage": "https://github.com/keabard/FATomJS#readme",
+  "dependencies": {
+    "casperjs": "^1.1.3"
+  }
+}
